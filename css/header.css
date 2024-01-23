@@ -1,0 +1,15 @@
+.imagem-perfil {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.username {
+  font-weight: 400;
+  font-size: 2em;
+  margin: 16px 0;
+}
+
+.descricao {
+  font-size: 1em;
+  color: var(--color_fonte_cinza);
+}

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap");
+
+@import url("container.css");
+@import url("header.css");
+@import url("main_social.css");
+@import url("footer.css");
+
+@import url("media.css");
+
+/*
+Fonte: Sora (google fonts)
+Cores das fontes: #FFFFFF e #919193
+Gradiente: Linear, que vai da cor #5578BA para a cor #40A376​
+*/
+:root {
+  --color_fonte_branca: #ffffff;
+  --color_fonte_cinza: #919193;
+  --color_fundo_1: #5578ba;
+  --color_fundo_2: #40a376;
+
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  background: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

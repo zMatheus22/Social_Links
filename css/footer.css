@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  gap: 1.5em;
+}
+
+.contact {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.contact img {
+  width: 1.8em;
+}

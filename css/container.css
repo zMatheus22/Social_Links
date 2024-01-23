@@ -1,0 +1,19 @@
+.container {
+  max-width: 540px;
+  margin: auto;
+  padding: 20px;
+  color: white;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gradient {
+  background: linear-gradient(
+    to right,
+    var(--color_fundo_1),
+    var(--color_fundo_2)
+  );
+}
